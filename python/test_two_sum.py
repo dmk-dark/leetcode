@@ -11,6 +11,5 @@ def test_two_sum():
     # Тест на множественные пары
     assert two_sum([1, 1, 2, 45], 46) == [1, 3]
 
-# Запуск тестов
 if __name__ == "__main__":
     pytest.main()

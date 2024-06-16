@@ -19,6 +19,3 @@ def two_sum(nums: list[int], target: int) -> list[int]:
             return [num_map[complement], i]  # Возвращаем индексы пары
         num_map[num] = i  # Добавляем текущее число и его индекс в словарь
     return []  # Если пара не найдена, возвращаем пустой список
-
-result = two_sum([1, 1, 2, 45], 46)
-print(result)
